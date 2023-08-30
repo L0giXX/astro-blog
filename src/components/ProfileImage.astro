@@ -1,0 +1,39 @@
+---
+import { Image } from "astro:assets";
+import profileImage from "../assets/profile_Image.png";
+---
+
+<a href="/">
+  <div>
+    <Image
+      src={profileImage}
+      alt="Profile Image"
+      style={{
+        borderRadius: "9999px",
+        width: "100px",
+        height: "100px",
+      }}
+    />
+  </div>
+</a>
+
+<style>
+  a {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-image: linear-gradient(#ff008c, #ffcd1e);
+    transition: all 0.5s ease-out;
+  }
+  a:hover {
+    scale: 1.1;
+    background-image: linear-gradient(#ffcd1e, #ff008c);
+  }
+  div {
+    border-radius: 9999px;
+    padding: 0.25rem;
+  }
+</style>

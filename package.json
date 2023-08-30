@@ -13,5 +13,11 @@
     "astro": "^3.0.3",
     "prettier": "^3.0.3",
     "prettier-plugin-astro": "^0.12.0"
+  },
+  "dependencies": {
+    "@fontsource-variable/dosis": "^5.0.8",
+    "@fontsource/abel": "^5.0.8",
+    "@fontsource/amatic-sc": "^5.0.11",
+    "@fontsource/rajdhani": "^5.0.8"
   }
 }
