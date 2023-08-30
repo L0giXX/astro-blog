@@ -1,0 +1,17 @@
+{
+  "name": "astro-blog",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "astro": "^3.0.3",
+    "prettier": "^3.0.3",
+    "prettier-plugin-astro": "^0.12.0"
+  }
+}
