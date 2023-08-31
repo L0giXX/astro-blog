@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "@components/Card.astro";
 ---
 
 <BaseLayout title="Welcome to Astro.">
@@ -9,9 +10,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       software development. I am 19 years old and currently studying computer
       science at the University of Applied Sciences in Wr. Neustadt, Austria.
     </p>
+    <!-- TODO: Social Media Links..., fetching github repos -->
+    <h2>Here you can see a list of my github repositories:</h2>
+    <Card />
   </section>
-  <!-- TODO: Social Media Links..., fetching github repos -->
 </BaseLayout>
+
 <style>
   section {
     margin-top: 2rem;
