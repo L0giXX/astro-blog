@@ -1,0 +1,19 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+---
+
+<BaseLayout title="Post">
+  <article>
+    <slot />
+  </article>
+</BaseLayout>
+
+<style>
+  article {
+    margin-top: 2rem;
+    border: 1px solid;
+    border-color: #64748b;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+  }
+</style>

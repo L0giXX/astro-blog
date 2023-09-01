@@ -1,0 +1,21 @@
+---
+layout: ../../layouts/PostLayout.astro
+title: Your Post Title
+date: 2021-08-08
+description: test description
+---
+
+# Your MDX Content
+
+## Hello, Next.js!
+
+- testing
+- testing 2
+- testing 3
+
+You can import and use React components in MDX files.
+
+```js
+const [age, setAge] = useState(50);
+const [name, setName] = useState("Taylor");
+```
