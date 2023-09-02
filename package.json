@@ -16,10 +16,12 @@
     "prettier-plugin-astro": "^0.12.0"
   },
   "dependencies": {
+    "@astrojs/mdx": "^1.0.0",
     "@astrojs/vercel": "^4.0.0",
     "@fontsource-variable/dosis": "^5.0.8",
     "@fontsource/abel": "^5.0.8",
     "@fontsource/amatic-sc": "^5.0.11",
-    "@fontsource/rajdhani": "^5.0.8"
+    "@fontsource/rajdhani": "^5.0.8",
+    "rehype-pretty-code": "^0.10.1"
   }
 }
